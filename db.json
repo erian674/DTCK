@@ -3,27 +3,32 @@
     {
       "id": "u1",
       "name": "Nguyễn Văn A",
-      "email": "vana@example.com"
+      "email": "vana@example.com",
+      "password": "123456"
     },
     {
       "id": "u2",
       "name": "Trần Thị B",
-      "email": "thib@example.com"
+      "email": "thib@example.com",
+      "password": "123456"
     },
     {
       "id": "u3",
       "name": "Lê Văn C",
-      "email": "vanc@example.com"
+      "email": "vanc@example.com",
+      "password": "123456"
     },
     {
       "id": "u4",
       "name": "Phạm Thị D",
-      "email": "thid@example.com"
+      "email": "thid@example.com",
+      "password": "123456"
     },
     {
       "id": "u5",
       "name": "Đỗ Minh E",
-      "email": "minhe@example.com"
+      "email": "minhe@example.com",
+      "password": "123456"
     }
   ],
   "tasks": [
