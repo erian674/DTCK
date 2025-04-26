@@ -2,29 +2,100 @@
   "users": [
     {
       "id": "u1",
-      "username": "john_doe",
-      "password": "123456",
-      "email": "john@example.com",
-      "avatar": "https://example.com/avatar/john.png",
-      "createdAt": "2024-01-01T10:00:00Z",
-      "lastActive": "2024-04-26T10:00:00Z"
+      "name": "Nguyễn Văn A",
+      "email": "vana@example.com"
+    },
+    {
+      "id": "u2",
+      "name": "Trần Thị B",
+      "email": "thib@example.com"
+    },
+    {
+      "id": "u3",
+      "name": "Lê Văn C",
+      "email": "vanc@example.com"
+    },
+    {
+      "id": "u4",
+      "name": "Phạm Thị D",
+      "email": "thid@example.com"
+    },
+    {
+      "id": "u5",
+      "name": "Đỗ Minh E",
+      "email": "minhe@example.com"
     }
   ],
   "tasks": [
     {
       "id": "t1",
-      "title": "Thiết kế UI",
-      "description": "Thiết kế giao diện chính cho Task Manager",
+      "title": "Thiết kế giao diện ứng dụng",
+      "description": "Thiết kế màn hình chính và chi tiết",
       "status": "To do",
       "priority": 2,
-      "dueDate": "2024-05-01T00:00:00Z",
-      "createdAt": "2024-04-25T08:00:00Z",
-      "updatedAt": "2024-04-25T09:00:00Z",
+      "dueDate": "2025-05-01T00:00:00.000Z",
+      "createdAt": "2025-04-25T00:00:00.000Z",
+      "updatedAt": "2025-04-25T00:00:00.000Z",
+      "createdBy": "admin",
       "assignedTo": "u1",
-      "createdBy": "u1",
-      "category": "UI",
-      "attachments": ["https://example.com/file1.png"],
-      "completed": false
+      "category": "Design",
+      "attachments": []
+    },
+    {
+      "id": "t2",
+      "title": "Lập trình chức năng đăng nhập",
+      "description": "Xây dựng form đăng nhập với validation",
+      "status": "In progress",
+      "priority": 1,
+      "dueDate": "2025-05-03T00:00:00.000Z",
+      "createdAt": "2025-04-25T00:00:00.000Z",
+      "updatedAt": "2025-04-25T00:00:00.000Z",
+      "createdBy": "admin",
+      "assignedTo": "u2",
+      "category": "Authentication",
+      "attachments": []
+    },
+    {
+      "id": "t3",
+      "title": "Tạo API Service cho Task",
+      "description": "Viết service API kết nối đến backend giả lập",
+      "status": "Done",
+      "priority": 3,
+      "dueDate": "2025-04-28T00:00:00.000Z",
+      "createdAt": "2025-04-20T00:00:00.000Z",
+      "updatedAt": "2025-04-23T00:00:00.000Z",
+      "createdBy": "admin",
+      "assignedTo": "u3",
+      "category": "Backend",
+      "attachments": ["specs_api.pdf"]
+    },
+    {
+      "id": "t4",
+      "title": "Kiểm thử chức năng tạo công việc",
+      "description": "Test form tạo mới task và upload tệp đính kèm",
+      "status": "To do",
+      "priority": 1,
+      "dueDate": "2025-05-05T00:00:00.000Z",
+      "createdAt": "2025-04-26T00:00:00.000Z",
+      "updatedAt": "2025-04-26T00:00:00.000Z",
+      "createdBy": "admin",
+      "assignedTo": "u4",
+      "category": "Testing",
+      "attachments": []
+    },
+    {
+      "id": "t5",
+      "title": "Triển khai ứng dụng",
+      "description": "Chuẩn bị APK và upload lên Google Play (nếu cần)",
+      "status": "To do",
+      "priority": 2,
+      "dueDate": "2025-05-10T00:00:00.000Z",
+      "createdAt": "2025-04-27T00:00:00.000Z",
+      "updatedAt": "2025-04-27T00:00:00.000Z",
+      "createdBy": "admin",
+      "assignedTo": "u5",
+      "category": "Deployment",
+      "attachments": []
     }
   ]
 }
