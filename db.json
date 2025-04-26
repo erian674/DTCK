@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "john_doe",
+      "password": "123456",
+      "email": "john@example.com",
+      "avatar": "https://example.com/avatar/john.png",
+      "createdAt": "2024-01-01T10:00:00Z",
+      "lastActive": "2024-04-26T10:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Thiết kế UI",
+      "description": "Thiết kế giao diện chính cho Task Manager",
+      "status": "To do",
+      "priority": 2,
+      "dueDate": "2024-05-01T00:00:00Z",
+      "createdAt": "2024-04-25T08:00:00Z",
+      "updatedAt": "2024-04-25T09:00:00Z",
+      "assignedTo": "u1",
+      "createdBy": "u1",
+      "category": "UI",
+      "attachments": ["https://example.com/file1.png"],
+      "completed": false
+    }
+  ]
+}
